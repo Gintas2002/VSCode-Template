@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "GCC x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/mingw64/include"  
+            ],
+            "defines": [
+                "_DEBUG"
+            ],
+            "compilerPath": "C:/mingw64/bin/gcc.exe",
+            "cStandard": "c99",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

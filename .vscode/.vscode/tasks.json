@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "debug",
+      "type": "shell",
+      "command": "mingw32-make",
+      "args": ["debug"],
+      "group": {"kind": "build"},
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "debug_perf",
+      "type": "shell",
+      "command": "mingw32-make",
+      "args": ["debug_perf"],
+      "group": {"kind": "build"},
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "release",
+      "type": "shell",
+      "command": "mingw32-make",
+      "args": ["release"],
+      "group": {"kind": "build"},
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
