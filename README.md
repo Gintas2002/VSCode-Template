@@ -11,5 +11,5 @@ more info, if you have MinGW, and you should, its the best lol, easiest way how 
 idk how on linux tho
 
 > ⚠️ **Note:** *There is another repository of mine where I include a Clang Formatting Portable folder (200 MB),  
-so Clang file would work in VSCode, it formatas code with advanced settings, if you need it, no need to instal bloated LLVM if not needed...  
+so Clang file would work in VSCode, it formates code with advanced settings, if you need it, no need to instal bloated LLVM if not needed...  
 just add it to the Windows environment path.*
