@@ -2,7 +2,7 @@
 VSCode template life saver, cause you have to make EVERYTHING yourself on VSCode...
 This includes MakeFile, Json's, etc, just change it up a bit, libs, etc to make it work for you projects
 
-src = your .c or .cpp files
+src = your .c or .cpp files, 
 include = .h files
 
 if you dont know how to use it, ctrl + shift + p, and select your task build, or debugging, performance mode debug or normal debug
