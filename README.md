@@ -11,5 +11,5 @@ more info, if you have MinGW, and you should, its the best lol, easiest way how 
 idk how on linux tho
 
 > ⚠️ **Note:** *There is another repository of mine where I include a Clang Formatting Portable folder (400 MB),  
-so no need to download bloated LLVM if not needed...  
+so Clang file would work, formating code if you need it, no need to download bloated LLVM if not needed...  
 just add it to the Windows environment path.*
