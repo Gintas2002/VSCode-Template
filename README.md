@@ -9,8 +9,6 @@ if you dont know how to use it, ctrl + shift + p, and select your task build, or
 
 more info, if you have MingW, easiest way how to make it work, put it in C drive, and then go to windows environment and add path C:\mingw64\bin
 
-<span style="color:red">
-*There is another repository of mine where I include Clang Formatting Portable folder (400 MB),  
+> ⚠️ **Note:** *There is another repository of mine where I include a Clang Formatting Portable folder (400 MB),  
 so no need to download bloated LLVM if not needed...  
-just need to add it in Windows environment path*
-</span>
+just add it to the Windows environment path.*
