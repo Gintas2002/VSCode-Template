@@ -2,12 +2,11 @@ BasedOnStyle: LLVM
 IndentWidth: 4
 UseTab: Never
 ColumnLimit: 120
-
+SortIncludes: false
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
 AllowShortBlocksOnASingleLine: false
 AllowShortFunctionsOnASingleLine: Inline
 AlignArrayOfStructures: Left
-
 BreakBeforeBraces: Custom
 BraceWrapping:
   BeforeElse: true
