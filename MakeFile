@@ -1,17 +1,18 @@
 EXE := Game1.exe
 CC := gcc
 OUTDIR := build
-INCLUDE := -Iinclude
-SRC := src/*.c
+HEADERS := -Iheaders
+CVERSION := -std=c99
+SOURCE := src/game_src/*.c
+LIBS := -mwindows
 LIBDIR := 
-LIBS := -mwindows -lgdi32
 
 .PHONY: clean_debug clean_debug_perf clean_release debug debug_perf release
 
 FLAGS := -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wcast-align -Wformat=2 -Wfloat-equal -Wundef -Wcast-qual \
  -Wwrite-strings -Wstrict-overflow=5 -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls \
   -Wlogical-op -Winit-self -Wuninitialized -Wmaybe-uninitialized -Wstrict-prototypes -Wold-style-definition -Wsign-compare \
-   -Wsign-conversion -Wjump-misses-init -Wstrict-aliasing=2 $(INCLUDE) $(SRC) $(LIBDIR) $(LIBS)
+   -Wsign-conversion -Wjump-misses-init -Wstrict-aliasing=2 $(CVERSION) $(HEADERS) $(SOURCE) $(LIBDIR) $(LIBS)
 
 define build
 	@del /Q $(OUTDIR)\$(1)\*.exe 2>NUL || exit 0
