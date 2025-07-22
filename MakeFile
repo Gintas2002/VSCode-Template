@@ -3,7 +3,7 @@ CC := gcc
 OUTDIR := build
 HEADERS := -Iheaders
 CVERSION := -std=c99
-SOURCE := src/game_src/*.c
+SOURCE := src/*.c
 LIBS := -mwindows
 LIBDIR := 
 
